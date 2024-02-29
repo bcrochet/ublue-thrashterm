@@ -54,7 +54,7 @@ modules:
   - type: fonts
     fonts:
       nerd-fonts:
-        - CascadiaCove
+        - CascadiaCode
         - Hack
         - FiraCode
         - SourceCodePro
