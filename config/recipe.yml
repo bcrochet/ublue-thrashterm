@@ -24,7 +24,7 @@ modules:
       - starship
       - neovim
       - tailscale
-      - xterm-kitty
+      - kitty-terminfo
       - zsh
     remove:
       - firefox # default firefox removed in favor of flatpak
