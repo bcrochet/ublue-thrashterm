@@ -12,9 +12,11 @@ image-version: latest # latest is also supported if you want new updates ASAP
 modules:
   - type: files
     files:
-      - usr: /usr # copies config/files/usr into your image's /usr.
-                  # put configuration files you want in /etc/ on a booted system 
-                  # in /usr/etc/ in the image. read more in files module reference.
+      - source: system
+        destination: / # copies files/system/* (* means everything inside it) into your image's root folder /
+                       # put configuration files you want in /usr/etc/ inside the image
+                       # while putting files in /etc/ is done on booted system by system administrators.
+                       # read more about this in files module reference.
 
   - type: rpm-ostree
     repos:
@@ -45,7 +47,6 @@ modules:
       # repo-title: "Flathub (system-wide)" # Optional; this sets the remote's user-facing name in graphical frontends like GNOME Software
       install:
         - org.mozilla.firefox
-        - org.freedesktop.Platform.ffmpeg-full
         - com.google.Chrome
         # - org.gnome.Loupe
         # - one.ablaze.floorp//lightning # This is an example of flatpak which has multiple branches in selection (flatpak//branch).
