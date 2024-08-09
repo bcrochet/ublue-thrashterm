@@ -1,0 +1,12 @@
+type: default-flatpaks
+user:
+  install:
+    - com.bitwarden.desktop
+    - com.discordapp.Discord
+    - com.prusa3d.PrusaSlicer
+    - com.slack.Slack
+    - io.podman_desktop.PodmanDesktop
+    - net.oz9aec.Gpredict
+    - org.raspberrypi.rpi-imager
+    - org.virt_manager.virt-viewer
+
