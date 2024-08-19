@@ -19,6 +19,14 @@ modules:
                        # read more about this in files module reference.
 
   - from-file: common-user-rpms.yml
+  - type: rpm-ostree
+    remove:
+      # example: removing firefox (in favor of the flatpak)
+      # "firefox" is the main package, "firefox-langpacks" is a dependency
+      # - firefox
+      # - firefox-langpacks # also remove firefox dependency (not required for all packages, this is a special case)
+      - firefox # default firefox removed in favor of flatpak
+      - firefox-langpacks # langpacks needs to also be removed to prevent dependency problems
 
   - from-file: common-user-flatpaks.yml
   - type: default-flatpaks
