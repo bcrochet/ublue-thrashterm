@@ -11,3 +11,4 @@ install:
   - zsh
   - alacritty
   - bootc
+  - mosh

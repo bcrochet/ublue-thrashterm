@@ -1,5 +1,5 @@
 # image will be published to ghcr.io/<user>/<name>
-name: ublue-thrashplay
+name: ublue-thrashplay-dev
 # description will be included in the image's metadata
 description: This is my (very) opinionated personal OS image, gaming style.
 
@@ -21,7 +21,12 @@ modules:
   - from-file: common-user-rpms.yml
   - type: rpm-ostree
     install:
-      sunshine
+      - qemu-system-aarch64-core
+      - virt-install
+      - virt-manager
+      - virt-viewer
+      - sunshine
+  
 
   - from-file: common-user-flatpaks.yml
   - type: default-flatpaks
