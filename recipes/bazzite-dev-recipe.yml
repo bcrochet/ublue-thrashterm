@@ -19,13 +19,13 @@ modules:
                        # read more about this in files module reference.
 
   - from-file: common-user-rpms.yml
+  - from-file: common-bazzite-user-rpms.yml
   - type: rpm-ostree
     install:
       - qemu-system-aarch64-core
       - virt-install
       - virt-manager
       - virt-viewer
-      - sunshine
   
 
   - from-file: common-user-flatpaks.yml
