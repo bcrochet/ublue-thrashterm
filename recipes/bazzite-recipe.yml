@@ -50,6 +50,5 @@ modules:
         - FiraCode
         - SourceCodePro
 
-  - type: containerfile
-    snippets:
-      - RUN rpm -Uvh https://github.com/twpayne/chezmoi/releases/download/v2.47.0/chezmoi-2.47.0-x86_64.rpm
+  - from-file: chezmoi-containerfile.yml
+
