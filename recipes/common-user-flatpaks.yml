@@ -9,3 +9,4 @@ user:
     - org.raspberrypi.rpi-imager
     - org.virt_manager.virt-viewer
     - im.riot.Riot
+    - org.tigervnc.vncviewer
