@@ -9,6 +9,4 @@ install:
   - tailscale
   - kitty-terminfo
   - zsh
-  - alacritty
-  - bootc
   - mosh
