@@ -1,5 +1,5 @@
 # image will be published to ghcr.io/<user>/<name>
-name: ublue-thrashplay
+name: ublue-thrashplay-kde
 # description will be included in the image's metadata
 description: This is my (very) opinionated personal OS image, gaming style.
 
