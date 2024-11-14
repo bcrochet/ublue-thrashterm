@@ -26,6 +26,7 @@ jobs:
           - dev-recipe.yml
           - bazzite-dev-recipe.yml
           - dev-wayblue-hyprland.yml
+          - dev-wayblue-hyprland-nvidia.yml
           - bazzite-kde-recipe.yml
     steps:
        # the build is fully handled by the reusable github action
