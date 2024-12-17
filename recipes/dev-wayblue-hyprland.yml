@@ -20,6 +20,9 @@ modules:
 
   - from-file: common-user-rpms.yml
   - type: rpm-ostree
+    install:
+      - tmux
+  - type: rpm-ostree
     remove:
       # example: removing firefox (in favor of the flatpak)
       # "firefox" is the main package, "firefox-langpacks" is a dependency

@@ -10,3 +10,6 @@ install:
   - kitty-terminfo
   - zsh
   - mosh
+  - krb5-workstation
+  - sssd-krb5
+  - pam_krb5
