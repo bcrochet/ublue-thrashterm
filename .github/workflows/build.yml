@@ -21,14 +21,15 @@ jobs:
       fail-fast: false # stop GH from cancelling all matrix builds if one fails
       matrix:
         recipe:
-          # !! Add your recipes here 
+          - bazzite-dev-recipe.yml
+          - bazzite-kde-recipe.yml
           - bazzite-recipe.yml
           - dev-recipe.yml
-          - bazzite-dev-recipe.yml
           - dev-wayblue-hyprland-gdm.yml
           - dev-wayblue-hyprland-nvidia-gdm.yml
           - dev-wayblue-hyprland-nvidia-open-gdm.yml
-          - bazzite-kde-recipe.yml
+          - dev-wayblue-hyprland-nvidia.yml
+          - dev-wayblue-hyprland.yml
     steps:
        # the build is fully handled by the reusable github action
       - name: Build Custom Image
