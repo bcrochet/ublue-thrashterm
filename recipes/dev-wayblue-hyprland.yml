@@ -19,9 +19,7 @@ modules:
                        # read more about this in files module reference.
 
   - from-file: common-user-rpms.yml
-  - type: rpm-ostree
-    install:
-      - tmux
+  - from-file: common-hyprland-user-rpms.yml
   - type: rpm-ostree
     remove:
       # example: removing firefox (in favor of the flatpak)
