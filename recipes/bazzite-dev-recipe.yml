@@ -21,6 +21,9 @@ modules:
   - from-file: common-user-rpms.yml
   - from-file: common-bazzite-user-rpms.yml
   - from-file: common-virt-user-rpms.yml
+  - type: rpm-ostree
+    install:
+      - pavucontrol
 
   - from-file: common-user-flatpaks.yml
   - type: default-flatpaks
