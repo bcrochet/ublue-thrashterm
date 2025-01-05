@@ -20,13 +20,7 @@ modules:
 
   - from-file: common-user-rpms.yml
   - from-file: common-bazzite-user-rpms.yml
-  - type: rpm-ostree
-    install:
-      - qemu-system-aarch64-core
-      - virt-install
-      - virt-manager
-      - virt-viewer
-  
+  - from-file: common-virt-user-rpms.yml
 
   - from-file: common-user-flatpaks.yml
   - type: default-flatpaks

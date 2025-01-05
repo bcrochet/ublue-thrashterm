@@ -20,6 +20,7 @@ modules:
 
   - from-file: common-user-rpms.yml
   - from-file: common-hyprland-user-rpms.yml
+  - from-file: common-virt-user-rpms.yml
   - type: rpm-ostree
     remove:
       # example: removing firefox (in favor of the flatpak)
