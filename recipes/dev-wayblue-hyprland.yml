@@ -63,3 +63,4 @@ modules:
 
   - from-file: chezmoi-containerfile.yml
 
+  - from-file: ml4w-user-rpms.yml

@@ -1,0 +1,7 @@
+type: rpm-ostree
+repos:
+  - charm.repo
+install:
+  - figlet
+  - gum
+  
