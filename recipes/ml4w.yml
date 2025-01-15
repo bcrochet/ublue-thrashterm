@@ -1,4 +1,8 @@
-type: containerfile
-containerfiles:
-  - ml4w
+modules:
+  - type: rpm-ostree
+    repos:
+      - charm.repo
+  - type: containerfile
+    containerfiles:
+      - ml4w
 
