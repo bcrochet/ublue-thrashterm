@@ -1,0 +1,10 @@
+RUN dnf install -y git wget unzip rsync figlet && \
+    bash <(curl -s https://raw.githubusercontent.com/mylinuxforwork/dotfiles/main/share/packages/fedora/special/gum.sh) && \
+    git clone --branch $(curl --silent "https://api.github.com/repos/mylinuxforwork/dotfiles/releases/latest" | grep '"tag_name":' | sed -E 's/.*"([^"]+)".*/\1/') --depth 1 https://github.com/mylinuxforwork/dotfiles.git /tmp/dotfiles && \
+    cd /tmp/dotfiles/bin/ && \
+    ./ml4w-hyprland-setup -m install && \
+    ./ml4w-hyprland-setup -p fedora -m packages && \
+    dnf remove -y git wget unzip rsync figlet && \
+    dnf clean all && \
+    rm -rf /tmp/dotfiles
+
