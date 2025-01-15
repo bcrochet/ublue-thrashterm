@@ -1,4 +1,4 @@
-echo '[charm]
+[charm]
 name=Charm
 baseurl=https://repo.charm.sh/yum/
 enabled=1
