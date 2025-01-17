@@ -1,0 +1,14 @@
+RUN git clone --branch rpmostree https://github.com/bcrochet/ml4w-dotfiles.git /tmp/dotfiles && \
+    dnf install -y gum && \
+    # git clone --branch $(curl --silent "https://api.github.com/repos/mylinuxforwork/dotfiles/releases/latest" | grep '"tag_name":' | sed -E 's/.*"([^"]+)".*/\1/') --depth 1 https://github.com/mylinuxforwork/dotfiles.git /tmp/dotfiles && \
+    cd /tmp/dotfiles/bin/ && \
+    mkdir -p /usr/{bin,share,lib} && \
+    cp /tmp/dotfiles/bin/ml4w-hyprland-setup /usr/bin/ml4w-hyprland-setup && \
+    cp -ar /tmp/dotfiles/share/. /usr/share && \
+    cp -ar /tmp/dotfiles/lib/. /usr/lib && \
+    dnf install -y figlet && \
+    dnf clean all && \
+    ls / && \
+    tree / && \
+    rm -rf /tmp/dotfiles
+
