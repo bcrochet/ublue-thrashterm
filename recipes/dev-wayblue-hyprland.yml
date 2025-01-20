@@ -60,7 +60,7 @@ modules:
         - Hack
         - FiraCode
         - SourceCodePro
-
-  - from-file: chezmoi-containerfile.yml
+        - Noto
+        - JetBrainsMono
 
   - from-file: ml4w-user-rpms.yml

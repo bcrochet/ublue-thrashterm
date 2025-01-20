@@ -1,3 +1,0 @@
-  type: containerfile
-  snippets:
-    - RUN rpm -Uvh https://github.com/twpayne/chezmoi/releases/download/v2.52.2/chezmoi-2.52.2-x86_64.rpm

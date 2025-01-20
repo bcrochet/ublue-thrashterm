@@ -1,7 +1,11 @@
-type: rpm-ostree
-repos:
-  - charm.repo
-install:
-  - figlet
-  - gum
-  
+modules:
+  - type: rpm-ostree
+    repos:
+      - charm.repo
+    install:
+      - figlet
+      - gum
+      - wget
+      - python3-pip
+      - qt6-qt5compat
+

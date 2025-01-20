@@ -54,8 +54,5 @@ modules:
         - FiraCode
         - SourceCodePro
 
-  - from-file: chezmoi-containerfile.yml
-  # - from-file: dracut-containerfile.yml
-
   - from-file: common-bazzite-user-systemd.yml
 

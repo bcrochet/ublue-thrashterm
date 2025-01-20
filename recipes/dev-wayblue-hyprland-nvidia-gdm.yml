@@ -61,5 +61,3 @@ modules:
         - FiraCode
         - SourceCodePro
 
-  - from-file: chezmoi-containerfile.yml
-
