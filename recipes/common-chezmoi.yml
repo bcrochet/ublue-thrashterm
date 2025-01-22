@@ -1,0 +1,6 @@
+type: chezmoi
+repository: https://gitlab.com/bcrochet/dotfiles.git
+all-users: false
+disable-init: true
+disable-update: true
+

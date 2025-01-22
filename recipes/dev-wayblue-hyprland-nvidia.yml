@@ -61,3 +61,5 @@ modules:
         - FiraCode
         - SourceCodePro
 
+  - from-file: common-chezmoi.yml
+

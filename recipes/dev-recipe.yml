@@ -46,9 +46,6 @@ modules:
       # Installing different branches of the same Flatpak is not supported.
       # remove:
       # - org.gnome.eog
-    user:
-      install:
-        - com.slack.Slack
 
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
 
@@ -59,4 +56,13 @@ modules:
         - Hack
         - FiraCode
         - SourceCodePro
+  - from-file: common-chezmoi.yml
+
+  - from-file: common-bazzite-user-rpms.yml
+
+  - type: default-flatpaks
+    notify: true
+    user:
+      install:
+        - com.slack.Slack
 

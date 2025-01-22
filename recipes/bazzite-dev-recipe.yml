@@ -19,11 +19,6 @@ modules:
                        # read more about this in files module reference.
 
   - from-file: common-user-rpms.yml
-  - from-file: common-bazzite-user-rpms.yml
-  - from-file: common-virt-user-rpms.yml
-  - type: rpm-ostree
-    install:
-      - pavucontrol
 
   - from-file: common-user-flatpaks.yml
   - type: default-flatpaks
@@ -54,5 +49,13 @@ modules:
         - FiraCode
         - SourceCodePro
 
+  - from-file: common-chezmoi.yml
+  
+  - from-file: common-bazzite-user-rpms.yml
+  
+  - from-file: common-virt-user-rpms.yml
+  - type: rpm-ostree
+    install:
+      - pavucontrol
   - from-file: common-bazzite-user-systemd.yml
 

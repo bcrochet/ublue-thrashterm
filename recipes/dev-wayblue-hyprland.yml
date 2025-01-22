@@ -63,4 +63,5 @@ modules:
         - Noto
         - JetBrainsMono
 
+  - from-file: common-chezmoi.yml
   - from-file: ml4w-user-rpms.yml

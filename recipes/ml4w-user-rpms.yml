@@ -8,4 +8,20 @@ modules:
       - wget
       - python3-pip
       - qt6-qt5compat
-
+      - hyprland
+      - waybar
+      - rofi-wayland
+      - alacritty
+      - dunst
+      - Thunar
+      - xdg-desktop-portal-hyprland
+      - qt5-qtwayland
+      - qt6-qtwayland
+      - hyprpaper
+      - hyprlock
+      - firefox
+      - python3-pip
+      - fastfetch
+      - wlogout
+      - python3-gobject
+      - gtk4
