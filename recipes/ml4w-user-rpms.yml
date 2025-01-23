@@ -2,7 +2,9 @@ modules:
   - type: rpm-ostree
     repos:
       - charm.repo
+      - https://copr.fedorainfracloud.org/coprs/pgdev/ghostty/repo/fedora-%OS_VERSION%/pgdev-ghostty-fedora-%OS_VERSION%.repo
     install:
+      - ghostty
       - figlet
       - gum
       - wget
@@ -19,7 +21,6 @@ modules:
       - qt6-qtwayland
       - hyprpaper
       - hyprlock
-      - firefox
       - python3-pip
       - fastfetch
       - wlogout
