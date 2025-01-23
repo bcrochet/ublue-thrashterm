@@ -6,6 +6,7 @@ repos:
 install:
   - bat
   - eza
+  - fastfetch
   - git
   - git-delta
   - kitty
