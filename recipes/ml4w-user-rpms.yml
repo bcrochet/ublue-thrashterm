@@ -4,8 +4,8 @@ modules:
       - charm.repo
       - https://copr.fedorainfracloud.org/coprs/pgdev/ghostty/repo/fedora-%OS_VERSION%/pgdev-ghostty-fedora-%OS_VERSION%.repo
       - https://copr.fedorainfracloud.org/coprs/solopasha/astal/repo/fedora-%OS_VERSION%/solopasha-astal-fedora-%OS_VERSION%.repo
+      - https://copr.fedorainfracloud.org/coprs/solopasha/hyprland/repo/fedora-%OS_VERSION%/solopasha-hyprland-fedora-%OS_VERSION%.repo
       - https://copr.fedorainfracloud.org/coprs/peterwu/rendezvous/repo/fedora-%OS_VERSION%/peterwu-rendezvous-fedora-%OS_VERSION%.repo
-      - https://copr.fedorainfracloud.org/coprs/wef/cliphist/repo/fedora-%OS_VERSION%/wef-cliphist-fedora-%OS_VERSION%.repo
       - https://copr.fedorainfracloud.org/coprs/tofix/nwg-shell/repo/fedora-%OS_VERSION%/tofik-nwg-shell-fedora-%OS_VERSION%.repo
     install:
       - ghostty
