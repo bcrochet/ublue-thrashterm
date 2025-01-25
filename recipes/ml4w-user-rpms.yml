@@ -26,3 +26,19 @@ modules:
       - wlogout
       - python3-gobject
       - gtk4
+      - python-pywal
+      - NetworkManager-tui
+      - astal
+      - bibata-cursor-theme
+      - breeze
+      - cliphist
+      - grimblast-git
+      - hyprshade
+      - nwg-dock-hyprland
+      - nwg-look
+      - oh-my-posh
+      - pinta
+      - python-screeninfo
+      - qt6ct
+      - waypaper
+      - xclip

@@ -9,6 +9,7 @@ install:
   - fastfetch
   - git
   - git-delta
+  - htop
   - kitty
   - kitty-kitten
   - kitty-terminfo
