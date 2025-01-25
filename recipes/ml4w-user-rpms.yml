@@ -32,7 +32,7 @@ modules:
       - gtk4
       - NetworkManager-tui
       - astal
-      - bibata-cursor-theme
+      - bibata-cursor-themes
       - cliphist
       - nwg-dock-hyprland
       - nwg-look
