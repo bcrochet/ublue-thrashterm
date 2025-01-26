@@ -1,4 +1,8 @@
 modules:
+  - type: files
+    files:
+      - source: ml4w
+        destination: / # copies files/ml4w/* (* means everything inside it) into your image's root folder /
   - type: rpm-ostree
     repos:
       - charm.repo
@@ -39,9 +43,4 @@ modules:
       - pinta
       - qt6ct
       - xclip
-      # - breeze
-      # - grimblast-git
-      # - oh-my-posh
-      # - python-pywal
-      # - python-screeninfo
-      # - waypaper
+      - plasma-breeze
