@@ -1,0 +1,13 @@
+type: fonts
+fonts:
+  nerd-fonts:
+    - CascadiaCode
+    - Hack
+    - FiraCode
+    - SourceCodePro
+    - Noto
+    - JetBrainsMono
+    - VictorMono
+    - Recursive
+  google-fonts:
+    - Balsamiq Sans

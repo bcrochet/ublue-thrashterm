@@ -59,17 +59,10 @@ modules:
 
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
 
-  - type: fonts
-    fonts:
-      nerd-fonts:
-        - CascadiaCode
-        - Hack
-        - FiraCode
-        - SourceCodePro
-        - Noto
-        - JetBrainsMono
-
+  - from-file: common-user-fonts.yml
   - from-file: common-chezmoi.yml
+  - from-file: common-virt-user-rpms.yml
+  - from-file: common-hyprland-user-rpms.yml
   - from-file: ml4w-user-rpms.yml
 
   - type: copy
