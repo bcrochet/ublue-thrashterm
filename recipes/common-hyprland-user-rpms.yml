@@ -3,3 +3,4 @@ install:
   - tmux
   - copyq
   - bolt
+  - gnome-keyring
