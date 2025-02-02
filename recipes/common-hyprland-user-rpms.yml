@@ -4,3 +4,4 @@ install:
   - copyq
   - bolt
   - gnome-keyring
+  - gnome-keyring-pam
