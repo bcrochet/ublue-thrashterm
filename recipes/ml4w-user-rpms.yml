@@ -17,6 +17,7 @@ modules:
       - astal
       - bibata-cursor-themes
       - cliphist
+      - dex-autostart
       - dunst
       - eww-git
       - fastfetch
