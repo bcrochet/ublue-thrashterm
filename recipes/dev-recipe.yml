@@ -53,6 +53,7 @@ modules:
   - from-file: common-chezmoi.yml
 
   - from-file: common-virt-user-rpms.yml
+  - from-file: common-dev-user-rpms.yml
 
   - type: default-flatpaks
     notify: true
