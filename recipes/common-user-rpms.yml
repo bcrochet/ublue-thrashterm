@@ -21,6 +21,7 @@ install:
   - sssd-krb5
   - starship
   - tailscale
+  - yq
   - zellij
   - zoxide
   - zsh
