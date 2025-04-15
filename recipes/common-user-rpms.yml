@@ -5,7 +5,7 @@ repos:
   - https://pkgs.tailscale.com/stable/fedora/tailscale.repo
 install:
   - bat
-  - eza
+  # - eza
   - fastfetch
   - git
   - git-delta
