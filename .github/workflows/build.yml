@@ -26,6 +26,7 @@ jobs:
           - bazzite-kde-recipe.yml
           - bazzite-recipe.yml
           - dev-recipe.yml
+          - dev-cosmic-recipe.yml
           - dev-wayblue-hyprland-gdm.yml
           - dev-wayblue-hyprland-nvidia-gdm.yml
           - dev-wayblue-hyprland-nvidia-open-gdm.yml
