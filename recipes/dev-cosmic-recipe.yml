@@ -4,7 +4,7 @@ name: ublue-thrashterm-cosmic
 description: This is my (very) opinionated personal OS image.
 
 # the base image to build on top of (FROM) and the version tag to use
-base-image: ghcr.io/ublue-os/cosmic-silverblue
+base-image: ghcr.io/ublue-os/cosmic-atomic-main
 image-version: latest # latest is also supported if you want new updates ASAP
 
 # module configuration, executed in order
