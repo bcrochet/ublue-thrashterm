@@ -1,7 +1,8 @@
-type: rpm-ostree
+type: dnf
 install:
-  - qemu-system-aarch64-core
-  - virt-install
-  - virt-manager
-  - virt-viewer
+  packages:
+    - qemu-system-aarch64-core
+    - virt-install
+    - virt-manager
+    - virt-viewer
 

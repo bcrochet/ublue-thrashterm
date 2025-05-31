@@ -1,7 +1,8 @@
-type: rpm-ostree
+type: dnf
 install:
-  - tmux
-  - copyq
-  - bolt
-  - gnome-keyring
-  - gnome-keyring-pam
+  packages:
+    - tmux
+    - copyq
+    - bolt
+    - gnome-keyring
+    - gnome-keyring-pam

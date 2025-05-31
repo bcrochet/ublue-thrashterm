@@ -124,10 +124,3 @@ install-games-steam:
     com.valvesoftware.Steam \\
     com.valvesoftware.Steam.Utility.gamescope
 
-# Install virtualization stack (libvirt/virt-manager/etc)
-install-virtualization:
-  rpm-ostree install libvirt-client libvirt-daemon-kvm virt-install virt-manager
-
-# Un-install virtualization stack (libvirt/virt-manager/etc)
-uninstall-virtualization:
-  rpm-ostree uninstall libvirt-client libvirt-daemon-kvm virt-install virt-manager
