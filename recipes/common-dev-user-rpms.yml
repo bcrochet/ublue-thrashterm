@@ -1,6 +1,12 @@
 modules:
-  - type: rpm-ostree
+  - type: dnf
     repos:
-      - https://copr.fedorainfracloud.org/coprs/pgdev/ghostty/repo/fedora-%OS_VERSION%/pgdev-ghostty-fedora-%OS_VERSION%.repo
+      cleanup: true
+      copr:
+        - pgdev/ghostty
     install:
-      - ghostty
+      packages:
+        - ghostty
+    remove:
+      packages:
+        - fish
