@@ -8,7 +8,6 @@ modules:
       files:
         - charm.repo
       copr:
-        - solopasha/astal
         - solopasha/hyprland
         - peterwu/rendezvous
         - tofik/nwg-shell

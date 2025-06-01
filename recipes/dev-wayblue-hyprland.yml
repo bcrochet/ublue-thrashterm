@@ -9,7 +9,7 @@ image-version: latest # latest is also supported if you want new updates ASAP
 
 stages:
   - name: ags
-    from: registry.fedoraproject.org/fedora-minimal:41
+    from: registry.fedoraproject.org/fedora-minimal:42
     modules:
       - from-file: astal-ags.yml
 
