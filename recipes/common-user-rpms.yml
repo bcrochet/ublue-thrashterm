@@ -11,18 +11,23 @@ install:
     - bat
     # - eza
     - direnv
+    - duf
     - fastfetch
     - git
     - git-delta
     - gh
+    - glances
     - htop
+    - iotop
     - kitty
     - kitty-kitten
     - kitty-terminfo
     - krb5-workstation
     - mosh
     - neovim
+    - ncdu
     - pam_krb5
+    - procs
     - ripgrep
     - sssd-krb5
     - starship
