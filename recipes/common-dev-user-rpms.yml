@@ -3,10 +3,7 @@ modules:
     repos:
       cleanup: true
       copr:
-        - pgdev/ghostty
+        - alternateved/ghostty
     install:
       packages:
         - ghostty
-    remove:
-      packages:
-        - fish
