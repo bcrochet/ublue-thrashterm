@@ -1,0 +1,6 @@
+type: containerfile
+snippets:
+  - RUN --mount=type=tmpfs,target=/tmp pip install waypaper && \
+        pip install pywal && \
+        pip install hyprshade && \
+        pip install screeninfo
