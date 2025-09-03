@@ -17,6 +17,8 @@ install:
     - git-delta
     - gh
     - glances
+    - gnome-browser-connector
+    - go-task
     - htop
     - iotop
     - kitty
