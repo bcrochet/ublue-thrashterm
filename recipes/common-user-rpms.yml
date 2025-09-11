@@ -31,6 +31,7 @@ install:
     - pam_krb5
     - procs
     - ripgrep
+    - rbw
     - sssd-krb5
     - starship
     - tailscale
