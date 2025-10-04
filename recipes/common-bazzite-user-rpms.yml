@@ -9,3 +9,4 @@ install:
     - coolercontrol
     - pavucontrol
     - wivrn
+    - toolbox
