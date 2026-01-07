@@ -23,6 +23,7 @@ modules:
 
   - from-file: common-user-rpms.yml
   - from-file: common-manual-binaries.yml
+  - from-file: common-dev-user-rpms.yml
   - from-file: common-user-flatpaks.yml
   - from-file: common-system-flatpaks.yml
 
@@ -35,5 +36,3 @@ modules:
 
   - from-file: common-bazzite-user-rpms.yml
   - from-file: common-bazzite-user-systemd.yml
-
-
