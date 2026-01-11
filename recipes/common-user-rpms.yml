@@ -3,7 +3,6 @@ repos:
   cleanup: true
   copr:
     - atim/starship
-    - varlad/zellij
   files:
     - https://pkgs.tailscale.com/stable/fedora/tailscale.repo
 install:
@@ -17,9 +16,7 @@ install:
     - git-delta
     - gh
     - glances
-    - gnome-browser-connector
     - go-task
-    - htop
     - iotop
     - kitty
     - kitty-kitten
@@ -36,7 +33,6 @@ install:
     - starship
     - tailscale
     - yq
-    - zellij
     - zoxide
     - zsh
 

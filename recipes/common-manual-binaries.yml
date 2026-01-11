@@ -1,11 +1,17 @@
 modules:
   - type: script
     snippets: 
-      - "curl -OL https://github.com/eza-community/eza/releases/download/v0.21.0/eza_x86_64-unknown-linux-gnu.tar.gz"
+      - "curl -OL https://github.com/eza-community/eza/releases/latest/download/eza_x86_64-unknown-linux-gnu.tar.gz"
       - "tar xzf eza_x86_64-unknown-linux-gnu.tar.gz"
-      - "mv eza /usr/local/bin"
+      - "mv eza /usr/bin"
       - "rm eza_x86_64-unknown-linux-gnu.tar.gz"
   - type: copy
     from: spacer
     src: /out/spacer
-    dest: /usr/local/bin
+    dest: /usr/bin
+  - type: script
+    snippets:
+      - "curl -OL https://github.com/zellij-org/zellij/releases/latest/download/zellij-x86_64-unknown-linux-musl.tar.gz"
+      - "tar xzf zellij-x86_64-unknown-linux-musl.tar.gz"
+      - "mv zellij /usr/bin"
+      - "rm zellij-x86_64-unknown-linux-musl.tar.gz"
