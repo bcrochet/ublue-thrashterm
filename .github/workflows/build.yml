@@ -28,7 +28,7 @@ jobs:
         recipe:
           - bazzite-dev-recipe.yml
           - bazzite-dev-nvidia-open-recipe.yml
-          - bazzite-kde-recipe.yml
+          # - bazzite-kde-recipe.yml
           - bazzite-recipe.yml
           - dev-recipe.yml
 #          - dev-cosmic-recipe.yml
