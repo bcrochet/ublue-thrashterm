@@ -40,7 +40,7 @@ jobs:
     steps:
        # the build is fully handled by the reusable github action
       - name: Build Custom Image
-        uses: blue-build/github-action@17bffb4fe1f62964cfd2ce138b509fc84a46e059 # v1.10
+        uses: blue-build/github-action@3cd0c2835e691b87a7eb19261a6aee77a56169e2 # v1.10
         with:
           recipe: ${{ matrix.recipe }}
           cosign_private_key: ${{ secrets.SIGNING_SECRET }}
