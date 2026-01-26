@@ -11,3 +11,5 @@ modules:
         - podman-compose
         - podman-machine
         - podman-tui
+        - make
+        - cmake
