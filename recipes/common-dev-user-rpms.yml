@@ -3,7 +3,7 @@ modules:
     repos:
       cleanup: true
       copr:
-        - alternateved/ghostty
+        - mineiro/ghostty
     install:
       packages:
         - ghostty
