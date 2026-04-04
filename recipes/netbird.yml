@@ -1,0 +1,11 @@
+modules:
+  - type: dnf
+    repos:
+      files:
+        - netbird.repo
+      keys:
+        - https://pkgs.netbird.io/yum/repodata/repomd.xml.key
+  - type: script
+    snippets:
+    - "dnf install -y netbird --setopt=tsflags=noscripts"
+    - "dnf install -y netbird-ui"

@@ -42,3 +42,5 @@ modules:
       - "sudo cp /lib/firmware/ath11k/WCN6855/hw2.0/m3.bin.xz{,.bak}"
       - "sudo cp /lib/firmware/ath11k/WCN6855/hw2.0/nfa765/amss.bin.xz /lib/firmware/ath11k/WCN6855/hw2.0/amss.bin.xz"
       - "sudo cp /lib/firmware/ath11k/WCN6855/hw2.0/nfa765/m3.bin.xz /lib/firmware/ath11k/WCN6855/hw2.0/m3.bin.xz"
+
+  - from-file: netbird.yml
