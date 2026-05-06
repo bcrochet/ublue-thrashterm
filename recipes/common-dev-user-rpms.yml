@@ -14,6 +14,8 @@ modules:
         - make
         - cmake
         - strace
-        - https://github.com/nekename/OpenDeck/releases/download/v2.10.1/opendeck-2.10.1-1.x86_64.rpm
+        - https://github.com/nekename/OpenDeck/releases/download/v2.12.0/opendeck-2.12.0-1.x86_64.rpm
         - wine
         - wine-mono
+        - wireshark
+        - wireshark-cli
