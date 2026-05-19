@@ -28,15 +28,8 @@ jobs:
         recipe:
           - bazzite-dev-recipe.yml
           - bazzite-dev-nvidia-open-recipe.yml
-          # - bazzite-kde-recipe.yml
-          - bazzite-recipe.yml
           - dev-recipe.yml
-#          - dev-cosmic-recipe.yml
-#          - dev-wayblue-hyprland-gdm.yml
-#          - dev-wayblue-hyprland-nvidia-gdm.yml
-#          - dev-wayblue-hyprland-nvidia-open-gdm.yml
-#          - dev-wayblue-hyprland-nvidia.yml
-#          - dev-wayblue-hyprland.yml
+          - dev-niri-recipe.yml
     steps:
       # the build is fully handled by the reusable github action
       - name: Build Custom Image
