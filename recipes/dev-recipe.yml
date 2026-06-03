@@ -44,3 +44,4 @@ modules:
       - "sudo cp /lib/firmware/ath11k/WCN6855/hw2.0/nfa765/m3.bin.xz /lib/firmware/ath11k/WCN6855/hw2.0/m3.bin.xz"
 
   - from-file: netbird.yml
+  - from-file: common-niri.yml

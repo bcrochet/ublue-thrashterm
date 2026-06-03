@@ -36,3 +36,4 @@ modules:
 
   - from-file: common-bazzite-user-rpms.yml
   - from-file: common-bazzite-user-systemd.yml
+  - from-file: common-niri.yml

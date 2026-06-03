@@ -1,8 +1,0 @@
-type: dnf
-install:
-  packages:
-    - tmux
-    - copyq
-    - bolt
-    - gnome-keyring
-    - gnome-keyring-pam

@@ -1,0 +1,10 @@
+type: dnf
+repos:
+  copr:
+    - avengemedia/dms
+    - yalter/niri-git
+install:
+  packages:
+    - niri
+    - dms
+
