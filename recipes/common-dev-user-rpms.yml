@@ -4,6 +4,8 @@ modules:
       cleanup: true
       copr:
         - mineiro/ghostty
+      files:
+        - https://cli.github.com/packages/rpm/gh-cli.repo
     install:
       packages:
         - ghostty
@@ -19,3 +21,4 @@ modules:
         - wine-mono
         - wireshark
         - wireshark-cli
+        - gh
