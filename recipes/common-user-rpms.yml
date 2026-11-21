@@ -26,7 +26,8 @@ install:
     - neovim
     - ncdu
     - pam_krb5
-    - procs
+    # procs not in F45
+    # - procs
     - ripgrep
     - rbw
     - sssd-krb5
